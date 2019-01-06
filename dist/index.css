@@ -1,0 +1,44 @@
+body {
+	background-color: #cab7b7;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 5vh;
+}
+
+td {
+	width: 18px;
+	height: 18px;
+	border: 1px solid black;
+}
+
+.snake-cell {
+	background-color: grey;
+}
+
+.unoccupied-cell {
+	background-color: #a3d795;
+}
+
+.food-cell {
+	background-color: red;
+}
+
+.menu-modal {
+	position: absolute;
+	top: 30vh;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 120px;
+	background-color: white;
+	padding: 40px 30px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
